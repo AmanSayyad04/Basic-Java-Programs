@@ -1,0 +1,20 @@
+package tutorial1;
+import java.util.*; 
+
+public class volumeOfCone {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		  System.out.println("Enter the radius: ");
+		  int a =sc.nextInt();
+		  
+		  System.out.println("Enter the height: ");
+		  int b = sc.nextInt();
+		  double ans = 3.14 * a * a * (b/3);
+		  
+		  System.out.println("Volume of Cone is: " + ans);
+
+	}
+
+}
