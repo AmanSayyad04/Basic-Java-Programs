@@ -13,7 +13,7 @@ public class areaOfPara {
 		  int h = sc.nextInt();
 		  double ans = b * h;
 		  
-		  System.out.println("Area of isosceles triangle is: " + ans);
+		  System.out.println("Area of Parallelogram is: " + ans);
 
 	}
 
